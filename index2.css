@@ -1,61 +1,49 @@
-body{
-  background-image:url("https://s3.envato.com/files/242464024/Previmage.jpg");
-  font-family: Courier, monospace;
+body {
+    background-image: url("https://s3.envato.com/files/242464024/Previmage.jpg");
+    font-family: Courier, monospace;
 }
-.position{
-  position: absolute;
-  top: 0px;
-  left: 0px;
+
+img {
+    border: 5px ridge papayawhip;
 }
-.header{
-  color: white;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: orange;
+
+img:hover {
+    border: 5px ridge maroon;
+    background-color: wheat;
 }
-img{
-  border: 5px ridge papayawhip;
-}
-img:hover{
-  border: 5px ridge maroon;
-  background-color: wheat;
-}
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: gray
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray
 }
-li{
-  float:left;
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
 }
-li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 17px;
-  text-decoration: none;
-}
+
 .list:hover {
-  background-color: #111;
+    background-color: #111;
 }
-.home{
-  background-color: lightgreen;
+
+.home {
+    background-color: lightgreen;
 }
-.home:hover{
-  background-color: lightsteelblue;
+
+.home:hover {
+    background-color: lightsteelblue;
 }
-.titlepos{
-  position: relative;
-  top: 50px;
-}
-.imgpos{
-  position: relative;
-  top: 50px;
-  margin-left: 50%;
-    margin-right: 50%;
-  /*position: relative;
-  top: 50px;
-  left: 850px;*/
+
+
+.imgpos {
+    position: relative;
+    top: 50px;
 }

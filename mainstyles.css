@@ -1,0 +1,64 @@
+body {
+    background-image: url("https://s3.envato.com/files/242464024/Previmage.jpg");
+    font-family: Courier, monospace;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.position {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+.list:hover {
+    background-color: #111;
+}
+
+.home {
+    background-color: lightgreen;
+}
+
+.home:hover {
+    background-color: lightsteelblue;
+}
+
+.dlist {
+    text-align: center;
+    color: white;
+}
+
+.textpos {
+    position: relative;
+    top: 50px;
+}
