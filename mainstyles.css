@@ -33,6 +33,7 @@ li {
     float: left;
 }
 
+
 li a {
     display: block;
     color: white;
@@ -61,4 +62,17 @@ li a {
 .textpos {
     position: relative;
     top: 50px;
+}
+th{
+    color:antiquewhite;
+}
+td{
+    color:lightcyan;
+}
+table{
+    border: 2px ridge red;
+}
+blockquote{
+    text-align:center;
+    color: white;
 }

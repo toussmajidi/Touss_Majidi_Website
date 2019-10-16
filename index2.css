@@ -12,37 +12,6 @@ img:hover {
     background-color: wheat;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray
-}
-
-
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 17px;
-    text-decoration: none;
-}
-
-.list:hover {
-    background-color: #111;
-}
-
-.home {
-    background-color: lightgreen;
-}
-
-.home:hover {
-    background-color: lightsteelblue;
-}
-
-
 .imgpos {
     position: relative;
     top: 50px;
