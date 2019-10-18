@@ -74,7 +74,14 @@ td {
 }
 
 table {
-    border: 2px ridge red;
+    border-collapse: collapse;
+
+}
+
+table,
+th,
+td {
+    border: 5px ridge orangered;
 }
 
 blockquote {
@@ -84,21 +91,43 @@ blockquote {
 }
 
 #hobbies {
+    width: 300px;
     background: orange;
+    margin: auto;
     z-index: 3;
+    border: 3px ridge orangered;
     box-shadow: 10px 10px 5px black;
 }
 
 #hobbies li {
-    color: white;
+    color: black;
 }
 
 ol {
+    width: 300px;
     background: orange;
+    margin: auto;
     z-index: 3;
+    border: 3px ridge orangered;
     box-shadow: 10px 10px 5px black;
 }
 
 ol li {
-    color: white;
+    color: black;
+}
+
+#homepic {
+    border: 5px ridge papayawhip;
+    position: relative;
+    top: 50px;
+}
+
+#homepic:hover {
+    border: 5px ridge maroon;
+    background-color: wheat;
+}
+
+#SRpic {
+    position: relative;
+    top: -200px;
 }
