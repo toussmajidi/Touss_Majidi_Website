@@ -21,7 +21,7 @@ p {
     text-decoration-color: orange;
 }
 
-ul {
+#menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,16 +29,13 @@ ul {
     background-color: gray;
 }
 
-.favlist {
-    margin: auto;
-}
 
-li {
+#menu li {
     float: left;
 }
 
 
-li a {
+#menu a {
     display: block;
     color: white;
     text-align: center;
@@ -46,15 +43,15 @@ li a {
     text-decoration: none;
 }
 
-.list:hover {
+#list:hover {
     background-color: #111;
 }
 
-.home {
+#home {
     background-color: lightgreen;
 }
 
-.home:hover {
+#home:hover {
     background-color: lightsteelblue;
 }
 
@@ -81,6 +78,27 @@ table {
 }
 
 blockquote {
+    font-size: 24px;
     text-align: center;
+    color: white;
+}
+
+#hobbies {
+    background: orange;
+    z-index: 3;
+    box-shadow: 10px 10px 5px black;
+}
+
+#hobbies li {
+    color: white;
+}
+
+ol {
+    background: orange;
+    z-index: 3;
+    box-shadow: 10px 10px 5px black;
+}
+
+ol li {
     color: white;
 }
